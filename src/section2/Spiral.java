@@ -20,7 +20,7 @@ public class Spiral {
 			// 7. Change the pen color to random
 		r2d2.setPenColor(255,200,50);
 			// 6. Move the robot 5 times the current line number you are drawing (5*i)
-			2d2.more(5*,i)
+			r2d2.move(5*i);
 			// 2. Turn the robot 360/7 degrees to the right
 		r2d2.turn(360/7);
 			// 8. Set the pen width to i
